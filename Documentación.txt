@@ -1,0 +1,15 @@
+Alan Caspeta A01424680
+Juan Pablo Yáñez A00829598
+
+Documentación Actividad 3
+Para esta actividad utilizamos la biblioteca de python freegames, de la cual copiamos el videojuego de pacman para el codigo inicial de este repositorio.
+Para esta activiad se nos pedia realizar tres modificaciones:
+1.- Cambiar el tablero
+2.- Aumentar la velodiad de los fantasmas 
+3.- Los fantasmas sean más listos
+
+Para lograr hacer esto realizamos cambios en la linea 150 del codigo en la funcion ontimer() la cual toma un valor de milisegundos, esta es la velocidad a la que podra viajar
+los fantasmas en el tablero reduciendo el tiempo se aumenta la velocidad.
+Despues para cambiar el tablero solo modificamos los valores de la matriz al principio del codigo, en donde los 0 repsenetan lugares a los cuales no se puede acceder
+y los 1 los que sí, por lo que modificamos el camino desde ahí.
+Finalmente como hicimos a los fantasmas más rapidos estos se vuelven más listos podiendo atrapar a el pacman más facilmente.
